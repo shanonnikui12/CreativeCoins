@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "CreativeCoins"
+version = "0.1.0"
+description = ""
+authors = ["Shanon Nikui <shanon.nikui@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.0.352"
+networkx = "^3.2.1"
+streamlit = "^1.29.0"
+pyvis = "^0.3.2"
+matplotlib = "^3.8.2"
+jinja2 = "^3.1.2"
+openai = "^1.6.1"
+python-dotenv = "^1.0.0"
+pydub = "^0.25.1"
+langchain-anthropic = "^0.1.4"
+pypdf2 = {extras = ["full"], version = "^3.0.1"}
+django = "^3.2"
+djangorestframework = "^3.12"
+sqlalchemy = "^2.0.29"
+psycopg2-binary = "^2.9.9"
+pydantic-settings = "^2.2.1"
+sqlmodel = "^0.0.16"
+
+[tool.poetry.dev-dependencies]
+black = "^23.12.1"
+isort = "^5.13.2"
+pytest = "^8.0.0"
+coverage = "^7.4.3"
